@@ -1,0 +1,46 @@
+menu.cpu=Processor
+
+##############################################################
+
+Ardu644.name=Ardu644
+
+Ardu644.upload.tool=avrdude
+Ardu644.upload.protocol=arduino
+
+Ardu644.bootloader.tool=avrdude
+Ardu644.bootloader.unlock_bits=0x3F
+Ardu644.bootloader.lock_bits=0x0F
+
+Ardu644.build.board=AVR_Ardu644
+Ardu644.build.core=Ardu644
+Ardu644.build.variant=Ardu644
+
+## Ardu644 W/ ATmega644 16MHz
+menu.cpu.Ardu644.atmega644=ATmega644 (16 MHz)
+
+menu.cpu.Ardu644.atmega644.upload.maximum_size=63488
+menu.cpu.Ardu644.atmega644.upload.maximum_data_size=4096
+menu.cpu.Ardu644.atmega644.upload.speed=57600
+
+menu.cpu.Ardu644.atmega644.bootloader.low_fuses=0xFF
+menu.cpu.Ardu644.atmega644.bootloader.high_fuses=0x9C
+menu.cpu.Ardu644.atmega644.bootloader.extended_fuses=0xFF
+menu.cpu.Ardu644.atmega644.bootloader.file=atmega/Ardu644.hex
+
+menu.cpu.Ardu644.atmega644.build.mcu=atmega644
+menu.cpu.Ardu644.atmega644.build.f_cpu=16000000L
+
+## Ardu644 W/ ATmega644P 16MHz
+menu.cpu.Ardu644.atmega644p=ATmega644P (16 MHz)
+
+menu.cpu.Ardu644.atmega644p.upload.maximum_size=63488
+menu.cpu.Ardu644.atmega644p.upload.maximum_data_size=4096
+menu.cpu.Ardu644.atmega644p.upload.speed=57600
+
+menu.cpu.Ardu644.atmega644p.bootloader.low_fuses=0xFF
+menu.cpu.Ardu644.atmega644p.bootloader.high_fuses=0x9C
+menu.cpu.Ardu644.atmega644p.bootloader.extended_fuses=0xFF
+menu.cpu.Ardu644.atmega644p.bootloader.file=atmega/Ardu644P.hex
+
+menu.cpu.Ardu644.atmega644p.build.mcu=atmega644p
+menu.cpu.Ardu644.atmega644p.build.f_cpu=16000000L
