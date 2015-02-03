@@ -3,45 +3,21 @@
 atmega644.name=Ardu644
 
 atmega644.upload.maximum_size=63488
-atmega644.upload.maximum_data_size=4096
+#atmega644.upload.maximum_data_size=4096
+atmega644.upload.protocol=arduino
+atmega644.upload.speed=115200
 
-atmega644.upload.protocol=stk500
-atmega644.upload.speed=57600
 atmega644.bootloader.path=atmega
 atmega644.bootloader.file=Ardu644.hex
-
 atmega644.bootloader.low_fuses=0xFF
-atmega644.bootloader.high_fuses=0x9C
-atmega644.bootloader.extended_fuses=0xFF
+atmega644.bootloader.high_fuses=0xDA
+atmega644.bootloader.extended_fuses=0xFD
 atmega644.bootloader.unlock_bits=0x3F
 atmega644.bootloader.lock_bits=0x0F
 
-atmega644.build.mcu=atmega644
+atmega644.build.mcu=atmega644p
 atmega644.build.f_cpu=16000000L
-atmega644.build.board=AVR_ARDU644
+#atmega644.build.board=AVR_ARDU644
 atmega644.build.core=Ardu644
 atmega644.build.variant=Ardu644
 
-##############################################################
-
-atmega644p.name=Ardu644P
-
-atmega644p.upload.maximum_size=63488
-atmega644p.upload.maximum_data_size=4096
-
-atmega644p.upload.protocol=stk500
-atmega644p.upload.speed=57600
-atmega644p.bootloader.path=atmega
-atmega644p.bootloader.file=Ardu644P.hex
-
-atmega644p.bootloader.low_fuses=0xFF
-atmega644p.bootloader.high_fuses=0x9C
-atmega644p.bootloader.extended_fuses=0xFF
-atmega644p.bootloader.unlock_bits=0x3F
-atmega644p.bootloader.lock_bits=0x0F
-
-atmega644p.build.mcu=atmega644p
-atmega644p.build.f_cpu=16000000L
-atmega644p.build.board=AVR_ARDU644
-atmega644p.build.core=Ardu644
-atmega644p.build.variant=Ardu644
